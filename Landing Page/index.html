@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- Font Awesome for Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+  <!-- Toggle Button -->
+  <div class="theme-toggle">
+    <button id="toggleTheme">
+      <i class="fas fa-moon"></i>
+    </button>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>My Landing Page</h1>
+      <nav>
+        <a href="#hero">Home</a>
+        <a href="#features">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2>Welcome to My Website</h2>
+    <p>We build beautiful and responsive websites for your business.</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="feature-box">
+      <i class="fas fa-rocket fa-2x"></i>
+      <h3>Fast</h3>
+      <p>Our websites load quickly and efficiently.</p>
+    </div>
+    <div class="feature-box">
+      <i class="fas fa-mobile-alt fa-2x"></i>
+      <h3>Responsive</h3>
+      <p>Perfectly fits any screen size - mobile, tablet, or desktop.</p>
+    </div>
+    <div class="feature-box">
+      <i class="fas fa-lightbulb fa-2x"></i>
+      <h3>Modern</h3>
+      <p>Clean and modern designs to attract customers.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <!-- About Section -->
+<section class="about">
+  <h2>About Me</h2>
+  <p>I'm a passionate web developer who loves building responsive and creative websites using HTML, CSS, and JavaScript.</p>
+</section>
+
+<!-- Projects Section -->
+<section class="projects">
+  <h2>My Projects</h2>
+  <div class="project-list">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio to showcase my skills and projects.</p>
+    </div>
+    <div class="project-card">
+      <h3>Face Recognition System</h3>
+      <p>Python-based smart face recognition with GUI and database.</p>
+    </div>
+    <div class="project-card">
+      <h3>Student Result Manager</h3>
+      <p>Full-stack app to manage and display student results securely.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Landing Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
